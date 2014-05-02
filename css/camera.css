@@ -165,20 +165,19 @@
 	font-weight: normal;
 	padding: 0 1px;
 	text-align: center;
-	text-transform: uppercase;
 	text-align: left;
 	padding-left: 17px;
         padding-top:4px;
 	text-shadow:0 0 0 transparent, -2px 2px 2px #777;
 }
 .camera_caption p{
-	color: #fff;
+	color: #000;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 0.875em;
 	font-weight: normal;
 	font-weight: normal;
 	padding: 1em 1px 1em 17px;
-	text-transform: uppercase;
+	
 }
 .camera_caption a{
 	color: #fff;
