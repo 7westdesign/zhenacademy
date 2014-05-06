@@ -31,8 +31,15 @@ body{
 }
 .logo{
 	float:left;
-	margin-top: 0;
-        margin-bottom:-10px;
+        margin-left:5px;
+	margin-top: 15px;
+        margin-bottom:5px;
+}
+
+#hilogo {
+width:240px;
+height:110px;
+
 }
 .top-social-icons{
 	float:right;
