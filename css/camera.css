@@ -148,27 +148,38 @@
 }
 .camera_caption h3{
 	color: #fff;
+	background:#9477cb;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 2em;
 	font-weight: normal;
 	padding: 0 1px;
 	text-align: center;
-	text-transform: uppercase;
 	text-align: left;
+	text-transform:uppercase;
+	margin-left: 17px;
 	padding-left: 17px;
-	text-shadow:0 0 0 transparent, -2px 2px 2px #777;
+	margin-bottom:10px;
+
+	
 }
-.camera_caption h2{
+.camera_caption h5{
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.4em;
+	font-size: 0.875em;
 	font-weight: normal;
 	padding: 0 1px;
 	text-align: center;
 	text-align: left;
-	padding-left: 17px;
-        padding-top:4px;
-	text-shadow:0 0 0 transparent, -2px 2px 2px #777;
+	margin-left: 17px;
+        margin-top:15px;
+        margin-bottom:2px;
+        background:#444;
+         width:265px;
+       padding-left:16px;
+padding-top:2px;
+padding-bottom:2px;
+opacity: 0.9; 
+	
 }
 .camera_caption p{
 	color: #000;
@@ -177,8 +188,10 @@
 	font-weight: normal;
 	font-weight: normal;
 	padding: 1em 1px 1em 17px;
-	
+        background-color: rgba(255,255,255, 0.6);
+	opacity:0.8; 
 }
+	
 .camera_caption a{
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
@@ -186,7 +199,7 @@
 	font-weight: normal;
 	padding:10px;
 	text-transform: uppercase;
-	background: #b19cd9;
+	background: #4AC948;
 	display: inline-block;
 	margin:10px 0 0 17px;
 	-webkit-transition: all 0.3s ease-out;
@@ -196,14 +209,15 @@
 	transition: all 0.3s ease-out;
 }
 .camera_caption a:hover{
-	background:#3D484E;
+	background:#3ba039;
+        text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
 }
 .camera_caption {
 	top: 12%;
 	display: block;
 	position: absolute;
 	width: 56%;
-	left: 7%;
+	left: 5%;
 }
 .camera_caption > div {
 	padding: 10px 20px;
@@ -441,6 +455,8 @@
 	margin: -1px 0 25px;
 	position: relative;
 }
+
+
 /**************************
 *
 *	COLORS & SKINS
@@ -1116,4 +1132,4 @@
 }
 .camera_yellow_skin .camera_commands > .camera_stop {
 	background-position: -120px -1240px	;
-}
+}-

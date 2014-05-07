@@ -36,14 +36,45 @@ body{
         margin-bottom:5px;
 }
 
-#hilogo {
-width:240px;
-height:110px;
+.signup {
+float:left;
+margin-right:20px;
+margin-top:10px;
+margin-left:624px;
+}
 
+
+.signup li{
+padding:2px;
+margin-left:18px;
+float:left;
+}
+
+hilogo {
+width:270px;
+height:100px;
+}
+
+.signlink {
+color:#999;
+font-family: 'Open Sans', sans-serif;
+font-size: 0.875em;
+}
+.signlink:hover {
+color:#000;
+}
+
+
+.dr {
+font-weight:bold;
+}
+
+.slider {
+margin-top:7px;
 }
 .top-social-icons{
 	float:right;
-	margin-top: 2.8em;
+	margin-top: 5px;
 }
 .top-social-icons ul li {
 	display: inline-block;
@@ -150,7 +181,7 @@ height:110px;
 .icon02{
 	width: 128px;
 	height: 128px;
-	background: url(../images/icon2.png) no-repeat 50% #fff;
+	background: url(../images/icon2.png) no-repeat 50% #F0F0F0;
 	display: inline-block;
 	-webkit-transition: background 0.5s ease;
 	-moz-transition: background 0.5s ease;
@@ -164,7 +195,7 @@ height:110px;
 .icon03{
 	width: 128px;
 	height: 128px;
-	background: url(../images/icon3.png) no-repeat 50% #fff;
+	background: url(../images/icon3.png) no-repeat 50% #F0F0F0;
 	display: inline-block;
 	-webkit-transition: background 0.5s ease;
 	-moz-transition: background 0.5s ease;
@@ -177,6 +208,8 @@ height:110px;
 }
 .top-grids {
 	padding: 2em 0 3em 0;
+border-bottom:2px solid #e7e1aa;
+
 }
 /*---start-midgrids-----*/
 .midgrids{
@@ -254,7 +287,7 @@ height:110px;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-weight: 800;
-	color: #B6C94B;
+	color: #8565c4;
 	font-family: 'Open Sans', sans-serif;
 }
 .mid-grids-head-left h4 span{
@@ -396,7 +429,7 @@ height:110px;
 	float:left;
 }
 .footer-left a{
-	color:#B6C94B;
+	color:#b19cd9;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-ms-transition: all 0.3s ease-out;
